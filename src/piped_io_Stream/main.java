@@ -81,7 +81,7 @@ public class main {
 	    //hilo01.start();
 	   // hilo02.start();
 	    
-	    
+	    System.out.println("Prueba");
 	    
 	}
 }
