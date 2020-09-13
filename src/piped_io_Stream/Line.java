@@ -1,31 +1,29 @@
 package piped_io_Stream;
 
 public class Line {
-
-	private int ejeX;
-	private int ejeY;
 	
-	public Line(int ejeX, int ejeY) {
+	private int[] puntoA = new int[3];
+	private int[] puntoB = new int[3];
+	
+	public Line(int[] puntoA, int[] puntoB) {
 		super();
-		this.ejeX = ejeX;
-		this.ejeY = ejeY;
+		this.puntoA = puntoA;
+		this.puntoB = puntoB;
 	}
 
-	public int getEjeX() {
-		return ejeX;
+	public int[] getPuntoA() {
+		return puntoA;
 	}
 
-	public void setEjeX(int ejeX) {
-		this.ejeX = ejeX;
+	public void setPuntoA(int[] puntoA) {
+		this.puntoA = puntoA;
 	}
 
-	public int getEjeY() {
-		return ejeY;
+	public int[] getPuntoB() {
+		return puntoB;
 	}
 
-	public void setEjeY(int ejeY) {
-		this.ejeY = ejeY;
+	public void setPuntoB(int[] puntoB) {
+		this.puntoB = puntoB;
 	}
-	
-	
 }
