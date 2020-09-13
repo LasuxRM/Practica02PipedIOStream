@@ -10,11 +10,33 @@ public class Line {
 		this.puntoA = puntoA;
 		this.puntoB = puntoB;
 	}
+	
+	
+	public void PrintVector() {
+		
+		System.out.print("(");
+ 	    for(int i=0; i<3; i++) {
+ 	    	if(i<2) {
+ 	    		System.out.print(getPuntoA()[i] + "-");
+ 	    	}else {
+ 	    		System.out.print(getPuntoA()[i]);
+ 	    	}
+ 	    }
+ 	    System.out.print(")\n(");
+ 	    
+ 	    for(int i=0; i<3; i++) {
+ 	    	if(i<2) {
+ 	    		System.out.print(getPuntoB()[i] + "-");
+ 	    	}else {
+ 	    		System.out.print(getPuntoB()[i]);
+ 	    	} 	    }
+ 	    System.out.println(")");
+	}
+	
 
 	public int[] getPuntoA() {
 		return puntoA;
 	}
-
 	public void setPuntoA(int[] puntoA) {
 		this.puntoA = puntoA;
 	}
@@ -22,7 +44,6 @@ public class Line {
 	public int[] getPuntoB() {
 		return puntoB;
 	}
-
 	public void setPuntoB(int[] puntoB) {
 		this.puntoB = puntoB;
 	}

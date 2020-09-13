@@ -30,16 +30,7 @@ public class MoveRotateResize3D {
 	    
 	    System.out.println("Imprimiendo nuevo vector");
 
-	    System.out.print("(");
-	    for(int i=0; i<3; i++) {
-		    System.out.print(linea0.getPuntoA()[i]);
-	    }
-	    System.out.print(")\n(");
-	    for(int i=0; i<3; i++) {
-		    System.out.print(linea0.getPuntoB()[i]);
-	    }
-	    System.out.println(")");
-	    
+	    linea0.PrintVector();
 	    
 
 	    
@@ -63,16 +54,8 @@ public class MoveRotateResize3D {
 	   
 
     	 System.out.println("Imprimiendo nuevo vector");
-
- 	    System.out.print("(");
- 	    for(int i=0; i<3; i++) {
- 		    System.out.print(linea0.getPuntoA()[i]);
- 	    }
- 	    System.out.print(")\n(");
- 	    for(int i=0; i<3; i++) {
- 		    System.out.print(linea0.getPuntoB()[i]);
- 	    }
- 	    System.out.println(")");
+ 	    
+ 	    linea0.PrintVector();
 	}
 
 }
