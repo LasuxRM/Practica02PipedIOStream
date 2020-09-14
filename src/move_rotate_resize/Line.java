@@ -1,6 +1,8 @@
 package move_rotate_resize;
 
-public class Line {
+import java.io.Serializable;
+
+public class Line implements Serializable{
 	
 	private int[] puntoA = new int[3];
 	private int[] puntoB = new int[3];
